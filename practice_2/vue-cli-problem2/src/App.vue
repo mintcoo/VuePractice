@@ -29,12 +29,12 @@ export default {
       this.page = event.target.innerText
     },
     checkPage(pageCheck) {
+      //axios
       console.log('@@@',pageCheck);
       if(this.page === pageCheck) {
         return true;
-      } else {
-        return false;
       }
+      return false;
     }
   }
 };
